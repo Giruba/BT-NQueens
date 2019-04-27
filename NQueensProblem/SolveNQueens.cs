@@ -51,7 +51,7 @@ namespace NQueensProblem
 
             /* The N Queens are placed in columns one by one
              * So if all queens are placed without collision,
-             * we would be reaching the columns N, the ending
+             * we would be reaching the column N, the ending
              * condition of the recursion
              */
             if (column >= board.GetLength(0)) {
